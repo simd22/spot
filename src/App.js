@@ -38,8 +38,8 @@ function App() {
           type: "SET_PLAYLISTS",
           playlists,
         });
-        // Automatically select and load the first playlist from the list
-        if (playlists.items.length > 0) {
+        
+        if (playlists.items.length > 0) { // First playlist from the list
           const firstPlaylistId = playlists.items[0].id;
           fetchAndSetPlaylist(firstPlaylistId);
         }
@@ -47,8 +47,7 @@ function App() {
     }
   }, [token, dispatch]);
 
-  const fetchAndSetPlaylist = (playlistId) => {
-    // Fetch the selected playlist and set it as discover_weekly
+  const fetchAndSetPlaylist = (playlistId) => { // Fetch the selected playlist and set it as discover_weekly
     spotify.getPlaylist(playlistId).then((response) => {
       dispatch({
         type: 'SET_DISCOVER_WEEKLY',
