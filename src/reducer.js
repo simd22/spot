@@ -1,14 +1,13 @@
-export const initialState = {
+export const initialState = { // empty data layer
     user: null,
     playlists: [],
     playing: false,
     item: null,
     // token: "BQBlRsAUYp1_VwRW7W8B3rhYzj91cg5s5a717XhVY-TbBUVMkYBafAog5QMwMXlVvKxjzGEp0Z5HuNr4hWdHsBScn6NoRXOXI5CNPr5qVdl06hbAN42_Bty9oWIABiGjppmtJPkRVlJrFdeOsH7hKClw0zqgRanID_niDVY2EWiuMXZ_K_jFg6uHUr_Z"
-}  // empty data layer
+}  
 
 const reducer = (state, action) => {
-    console.log(action); // helps debug
-    // Action -> type, [payload]
+    console.log(action); // debugging
     switch(action.type) { 
         case 'SET_USER' : 
             return {

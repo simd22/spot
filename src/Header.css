@@ -17,6 +17,7 @@
 
 .header_left > input {
     border: none;
+    outline: none;
     width: 100%;
 }
 
@@ -28,3 +29,4 @@
 .header_right > h4 {
     margin-left: 10px;
 }
+

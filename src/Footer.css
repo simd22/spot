@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     bottom: 0;
-    height: 65px;
+    height: 10vh;
     width: 97%;
     background-color: #282828;
     padding: 20px;
@@ -43,7 +43,8 @@
 }
 
 .footer_green {
-    color: #1ed15e;
+    /* color: #1ed15e; */
+    color: #FFC0CB;
 }
 
 .footer_songInfo > h4 {
@@ -60,5 +61,6 @@
 }
 
 .footer_right * .MuiSlider-root {
-    color: green;
+    /* color: green; */
+    color: #FFC0CB;
 }

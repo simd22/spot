@@ -1,0 +1,15 @@
+.message {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+  color: white;
+}
+
+.lofi {
+  width: 500px; 
+  height: auto; 
+  margin-bottom: 20px; 
+}

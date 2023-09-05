@@ -2,8 +2,8 @@
 // endpoint - where send user to in order to get them to authenticate
 // send to spotify to handle authentication then brings back to homepage with redirect
 export const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectUri = "https://spotify-clone-922c2.web.app";
-// "http://localhost:3000/";
+const redirectUri = "http://localhost:3000/";
+// "https://spotify-clone-922c2.web.app";
 const clientId = "21ad13f1a1f64351af0c640fb774535a";
 
 // scopes - throw user over with scopes
